@@ -1,0 +1,204 @@
+* {
+  margin: 0%;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: Comic Sans MS;
+}
+
+body {
+  background-color: rgb(9, 10, 39);
+}
+
+h2 {
+  font-size: 2rem;
+  color: #FD4642;
+  text-shadow: 3px 5px black;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+p {
+  letter-spacing: 4px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px black;
+  font-size: 25px;
+  text-transform:;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  margin: 100px auto;
+}
+
+.banner {
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.986)), url(assets/imagess/ChoppingChopper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  padding-top: 60px;
+  border-bottom: 1px solid #9e901480;
+}
+
+.banner .banner-content {
+  color: white;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.banner .banner-content p {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.banner h1 {
+  font-size: 2.6rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: transparent;
+  background: -webkit-linear-gradient(#ffffff, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.banner p {
+  font-size: 1.25rem;
+  margin: 16px 0 24px;
+}
+
+.banner .logo {
+  background-color: rgba(17, 4, 4, 0.781);
+  height: 260px;
+  width: 260px;
+  margin: auto;
+  border-radius: 50%;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.banner .logo img {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.banner .banner-content button {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  background-color: transparent;
+  border-image: linear-gradient(rgb(124, 187, 238), #1525b7);
+  border-image-slice: 10;
+  border-radius: 30px;
+}
+
+.whoWeAreBackG {
+  background-image: url(assets/imagess/PapelDeParedeInfantil.png);
+  background-size: 1000px;
+}
+
+#whoWeAre {
+  padding: 50px 90px 50px;
+  border: 1px solid #6BC4FF;;
+  background-color: #090A27;
+  width: 800px;
+  text-align: center;
+}
+
+#whoWeAre .modules-list {
+  margin: 24px 0;
+}
+
+#whoWeAre .modules-list .module {
+  font-size: 20px;
+  color: white;
+  width: 530px;
+  margin: 0 auto 24px;
+  border: 1px solid #3ce72546;
+  background-color: #4E69E6;
+  padding: 16px;
+  border-radius: 100px;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#whoWeAre .modules-list .module span {
+  text-transform: uppercase;
+  color: #fffc3e;
+}
+
+#HelpUs {
+  height: 560px;
+  background-size: cover;
+  background-image: url(assets/imagess/HidingChopper.jpg);
+  background-attachment: fixed;
+  border-top: 1px solid #9e901480;
+  border-bottom: 1px solid #9e901480;
+}
+
+#HelpUs p {
+  text-align: left;
+  color: #090A27;
+  font-weight: 900;
+  font-size: 4rem;
+  width: 600px;
+  text-shadow: 3px 2px #070707;
+  padding: 200px 66vh 500px;
+}
+
+#OurProfessionals {
+  text-align: center;
+  width: 800px;
+  height: 400px;
+}
+
+#OurProfessionals img {
+  margin: 32px 0;
+}
+
+#VisiteUs {
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.986)), url(assets/imagess/medical\ health\ distribution\ symbol.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  padding-top: 60px;
+  border-bottom: 1px solid #9e901480;
+}
+
+#VisiteUs p {
+  text-align: left;
+  color: #090A27;
+  font-weight: 900;
+  font-size: 4rem;
+  width: 600px;
+  text-shadow: 3px 2px #070707;
+  padding: 100px 66vh 500px;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  background-image: linear-gradient(rgba(12, 100, 100, 0.582), rgba(44, 38, 11, 0.2));
+  border-top: 1px solid #9e901480;
+}
+
+footer .logo {
+  width: 160px;
+}
+
+footer a {
+  color: rgb(0, 191, 255);
+  font-weight: bold;
+}
